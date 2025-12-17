@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasti's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+         <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, I'm <span>Hasti</span> Gadara</h1>
+            <p>A Software Developer</p>
+            <p class="pp">
+             Self-driven, quick starter, passionate programmer with a <br>  curious mind who enjoys solving complex 
+             and challenging <br> real-world problems.
+            </p>
+        </div>
+        <div class="btn-group">
+         <a href="#about" class="button">Read more</a>
+         <a href="#contact" class="button1">Contact Me</a>
+         </div>
+    </div>
+    </div>
+<!-- ------------------about----------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/blackpic.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Computer Science Grad Student at Parul University. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Python, Flask, MySQL, MongoDB, HTML5, CSS, Java, C++ during my bachelor's. I have 6 months of professional work experience which helped me strengthen my experience in Android App Development using java. I am passionate about developing complex applications that solve real-world problems impacting millions of users.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI-UX</span><br>Designing Web App Interface</li>
+                            <li><span>App Development</span><br>Building Andriod Apps</li>
+                            <li><span>Java Development</span><br>web Development</li>
+                        </ul>
+                    </div>
+                     <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-2024</span><br>Web App Development</li>
+                            <li><span>2024-2025</span><br>Android App Develpoment</li>
+                            <li><span>2025-current</span><br>Python App Development</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-current</span><br>Computer Scient Student at parul university</li>
+                            <li><span>2021-2024</span><br>Diploma(CE) at R.K.university</li>
+                            <li><span>2019-2020</span><br>GSEB 10 at G.M.Patel School</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------services---------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Experience</h1>
+        <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+
+                <h2>Online Booking Android App </h2>
+                <p>internship at kotlinz infotech Designed clean and responsive mobile application interfaces.Concentrated on delivering a intuitive user experience, streamlining the critical booking and payment flows to enhance user satisfaction and task completion rates.</p>
+                <!-- <a href="https://github.com/Hasti-gadara">Learn more..</a> -->
+            </div>
+            <div>
+                 <i class="fa-solid fa-mobile-screen"></i>
+                <h2>AI Project Chatbot Web App</h2>
+                <p>internship at intel unnati industrial tranning of Enhancing Customer Experience with AI-Driven Insights.It provides hands-on experience with emerging technologies like AI/ML under the guidance of Intel unnati industrial experts to cultivate job-ready skills.</p>
+                <!-- <a href="https://github.com/Hasti-gadara">Learn more..</a> -->
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Online Food Ordering Website</h2>
+                <p>internship at viha infotech A PHP-based food ordering project enables customers to browse menus and select items using an "Add to Cart" function. The system efficiently handles the compiled order data, transmitting the final request to the restaurant for fulfillment.</p>
+                <!-- <a href="https://github.com/Hasti-gadara">Learn more..</a> -->
+            </div>
+           
+           
+        
+            
+        </div>
+    </div>
+ </div>
+<!-- ----------------portfolio------------------ -->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/app.jpg" alt="">
+            <div class="layer">
+                <h3>Android Project</h3>
+                <p>Built an Android app that enables users to book services online easily and efficiently.Focused on smooth navigation, data storage, and reliable booking workflows.</p>
+                <a href="https://github.com/Hasti-gadara"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+        </div>
+        <div class="work">
+            <img src="images/web.jpg" alt="">
+             <div class="layer">
+                <h3>website Project</h3>
+                <p>Designed and built a quiz web application using Python Flask with MySQL for data management.Enabled features such as question randomization, real-time scoring, and result display. </p>
+                <a href="https://github.com/Hasti-gadara"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/python.png" alt="">
+             <div class="layer">
+                <h3>Python Project</h3>
+                <p>Created a basic calculator project in Python as part of academic coursework.Strengthened understanding of conditional logic, functions, and user input handling.</p>
+                <a href="https://github.com/Hasti-gadara"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+       
+        <div class="work">
+            <img src="images/ai.jpg" alt="">
+             <div class="layer">
+                <h3>AI Project</h3>
+                <p>Built an AI-based head counting system as an academic project to analyze crowd presence.Strengthened skills in Python, image processing, and machine learning concepts.</p>
+                <a href="https://github.com/Hasti-gadara"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/iot.png" alt="">
+             <div class="layer">
+                <h3>IOT Project</h3>
+                <p>A wireless LCD display system using Bluetooth that receives and displays text data transmitted from a nearby host device (like a smartphone or computer).</p>
+                <a href="https://github.com/Hasti-gadara/Iot_Project"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="https://github.com/Hasti-gadara" class="btn">See more</a>
+</div>
+</div>
+<!-- -----------contact---------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>hastigadara222@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>
+                +91 9426125060</p><br>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Hasti-gadara"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://instragram.com"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="images/Hasti_Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" Required>
+                    <input type="email" name="Email"
+                    placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @hastigadara222@gmail.com <i class="fas fa-heart"></i>All Rights Reserved.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxKOsfvscXpV-VJnpqY3-cMlGBs4y2k2t1B_YzMz3UlU47vTKEiwbue-ughiNVMssx5kw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg");
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{ 
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+  })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
